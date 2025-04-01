@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.2](https://github.com/tepzilon/test-release-please/compare/a-v1.0.1...a-v1.0.2) (2025-04-01)
+
+
+### Bug Fixes
+
+* pkg a ([4a5032b](https://github.com/tepzilon/test-release-please/commit/4a5032be3cd696f321d7cbe6f3e0e47d44f2f2f4))
+* test ([53069c7](https://github.com/tepzilon/test-release-please/commit/53069c7c50d5c3a6eeab67b8a487a79a5f5d140f))
+
 ## [1.0.1](https://github.com/tepzilon/test-release-please/compare/a@v1.0.0...a-v1.0.1) (2025-04-01)
 
 
