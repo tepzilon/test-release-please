@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/tepzilon/test-release-please/compare/a@v1.0.0...a-v1.0.1) (2025-04-01)
+
+
+### Bug Fixes
+
+* test ([db87ccb](https://github.com/tepzilon/test-release-please/commit/db87ccb4fb05844a04776d6f243933e0e77d2845))
+
 ## 1.0.0 (2025-04-01)
 
 
