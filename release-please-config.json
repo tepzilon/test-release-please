@@ -1,0 +1,9 @@
+{
+  "packages": {
+    "hello-react": {
+      "path": "packages/a",
+      "release-type": "node"
+    }
+  },
+  "release-type": "node"
+}
