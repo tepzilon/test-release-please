@@ -13,11 +13,24 @@ jobs:
   release-please:
     runs-on: ubuntu-latest
     steps:
-      - uses: googleapis/release-please-action@v4
+      - name: Release please
+        uses: googleapis/release-please-action@v4
         id: release
         with:
           token: ${{ github.token }}
-      - if: ${{ steps.release.outputs.release_created }}
+      - name: Setup python
+        uses: actions/setup-python@v5
+        if: ${{ steps.release.outputs.release_created }}
+        with:
+          python-version: '3.x'
+      - name: Install dependencies
+        if: ${{ steps.release.outputs.release_created }}
         run: |
-          echo "Release created: ${{ steps.release.outputs.release_url }}"
-          echo "Release version: ${{ steps.release.outputs.release_version }}"
+          python -m pip install --upgrade pip
+          pip install PyGitHub
+      - name: Create production PR
+        if: ${{ steps.release.outputs.release_created }}
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          python -m production
