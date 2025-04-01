@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.6](https://github.com/tepzilon/test-release-please/compare/test-release-please-v1.0.5...test-release-please-v1.0.6) (2025-04-01)
+
+
+### Bug Fixes
+
+* repo name ([b2df693](https://github.com/tepzilon/test-release-please/commit/b2df6931149480d5a47dfb2ed5f58fb94f1c4b1d))
+
 ## [1.0.5](https://github.com/tepzilon/test-release-please/compare/test-release-please-v1.0.4...test-release-please-v1.0.5) (2025-04-01)
 
 
