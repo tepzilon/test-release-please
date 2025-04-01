@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/tepzilon/test-release-please/compare/test-release-please@v1.0.0...test-release-please-v1.0.1) (2025-04-01)
+
+
+### Bug Fixes
+
+* add script ([e7d6b36](https://github.com/tepzilon/test-release-please/commit/e7d6b36573004ee8f8f7cabd3499bd274f17cbdd))
+
 ## 1.0.0 (2025-04-01)
 
 
