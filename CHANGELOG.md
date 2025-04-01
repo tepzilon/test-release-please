@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.0.7](https://github.com/tepzilon/test-release-please/compare/test-release-please-v1.0.6...test-release-please-v1.0.7) (2025-04-01)
+
+
+### Bug Fixes
+
+* pkg a ([4a5032b](https://github.com/tepzilon/test-release-please/commit/4a5032be3cd696f321d7cbe6f3e0e47d44f2f2f4))
+* root ([dd6f252](https://github.com/tepzilon/test-release-please/commit/dd6f252edecb9af4a2457a50f1e8d81b5c424e3d))
+* test ([53069c7](https://github.com/tepzilon/test-release-please/commit/53069c7c50d5c3a6eeab67b8a487a79a5f5d140f))
+
 ## [1.0.6](https://github.com/tepzilon/test-release-please/compare/test-release-please-v1.0.5...test-release-please-v1.0.6) (2025-04-01)
 
 
