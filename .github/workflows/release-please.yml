@@ -1,0 +1,39 @@
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+  pull-requests: write
+
+name: release-please
+
+jobs:
+  release-please:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Release please
+        uses: googleapis/release-please-action@v4
+        id: release
+        with:
+          token: ${{ github.token }}
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup python
+        uses: actions/setup-python@v5
+        if: ${{ steps.release.outputs.release_created }}
+        with:
+          python-version: '3.x'
+      - name: Install dependencies
+        if: ${{ steps.release.outputs.release_created }}
+        run: |
+          python -m pip install --upgrade pip
+          pip install PyGitHub
+      - name: Create production PR
+        if: ${{ steps.release.outputs.release_created }}
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          PYTHONPATH: .
+        run: |
+          python -m production

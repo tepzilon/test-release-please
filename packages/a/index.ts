@@ -1,0 +1,1 @@
+console.log("Hello package a via Bun! oiia iauiia");
