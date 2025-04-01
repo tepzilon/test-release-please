@@ -1,11 +1,9 @@
 {
   "packages": {
-    "root": {
-      "path": ".",
+    ".": {
       "release-type": "node"
     },
-    "pkg-a": {
-      "path": "packages/a",
+    "packages/a": {
       "release-type": "node"
     }
   }
