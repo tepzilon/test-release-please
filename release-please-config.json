@@ -1,0 +1,12 @@
+{
+  "packages": {
+    ".": {
+      "name": "test-release-please",
+      "release-type": "node"
+    },
+    "packages/a": {
+      "name": "test-release-please/a",
+      "release-type": "node"
+    }
+  }
+}
