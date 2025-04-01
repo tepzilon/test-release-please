@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.5](https://github.com/tepzilon/test-release-please/compare/test-release-please-v1.0.4...test-release-please-v1.0.5) (2025-04-01)
+
+
+### Bug Fixes
+
+* moreeeee ([106e0d3](https://github.com/tepzilon/test-release-please/commit/106e0d384a48ec778fd72afc5c3129a6a7a2d9dc))
+
 ## [1.0.4](https://github.com/tepzilon/test-release-please/compare/test-release-please-v1.0.3...test-release-please-v1.0.4) (2025-04-01)
 
 
