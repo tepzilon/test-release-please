@@ -18,6 +18,8 @@ jobs:
         id: release
         with:
           token: ${{ github.token }}
+      - name: Checkout
+        uses: actions/checkout@v4
       - name: Setup python
         uses: actions/setup-python@v5
         if: ${{ steps.release.outputs.release_created }}
@@ -34,4 +36,4 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
           PYTHONPATH: .
         run: |
-          python production.py
+          python -m production
