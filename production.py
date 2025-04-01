@@ -7,7 +7,7 @@ if __name__ == "__main__":
     raise ValueError("GITHUB_TOKEN environment variable not set")
   auth = Auth.Token(token)
   github = Github(token)
-  repo = github.get_repo("AlphaFinanceLab/infinit-agents-monorepo")
+  repo = github.get_repo("tepzilon/test-release-please")
   body = '''
 pull request description
 '''
