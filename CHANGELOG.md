@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.3](https://github.com/tepzilon/test-release-please/compare/test-release-please-v1.0.2...test-release-please-v1.0.3) (2025-04-01)
+
+
+### Bug Fixes
+
+* pythonpath cwd ([6b29d0d](https://github.com/tepzilon/test-release-please/commit/6b29d0d768b7eb22a5f2f844279809c29f219e0e))
+
 ## [1.0.2](https://github.com/tepzilon/test-release-please/compare/test-release-please-v1.0.1...test-release-please-v1.0.2) (2025-04-01)
 
 
