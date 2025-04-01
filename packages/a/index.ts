@@ -1,1 +1,1 @@
-console.log("Hello package a via Bun! uiia");
+console.log("Hello package a via Bun! oiia");
