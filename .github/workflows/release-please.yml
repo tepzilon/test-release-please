@@ -34,4 +34,4 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
           PYTHONPATH: .
         run: |
-          python -m production
+          python production.py
