@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.4](https://github.com/tepzilon/test-release-please/compare/test-release-please-v1.0.3...test-release-please-v1.0.4) (2025-04-01)
+
+
+### Bug Fixes
+
+* run py cmd ([2c876aa](https://github.com/tepzilon/test-release-please/commit/2c876aa613babdcec6a244c1ac8b0439dc605ca0))
+
 ## [1.0.3](https://github.com/tepzilon/test-release-please/compare/test-release-please-v1.0.2...test-release-please-v1.0.3) (2025-04-01)
 
 
