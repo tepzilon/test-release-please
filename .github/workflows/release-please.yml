@@ -32,5 +32,6 @@ jobs:
         if: ${{ steps.release.outputs.release_created }}
         env:
           GITHUB_TOKEN: ${{ github.token }}
+          PYTHONPATH: .
         run: |
           python -m production
